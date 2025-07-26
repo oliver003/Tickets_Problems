@@ -9,10 +9,12 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) { 
-    return const MaterialApp(
+    return MaterialApp(
+      title: 'Mi app Flutter',
       home: Scaffold(
+        appBar: AppBar(title: Text('Hola Flutter')),
         body: Center(
-          child: Text('Goku le gana a Saitama'),
+          child: Text('Goku le ganara a Saitama'),
         ),
       ),
     );
